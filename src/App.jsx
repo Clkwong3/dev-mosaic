@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import Navigation from "./components/Navigation";
 import AboutMe from "./components/pages/AboutMe";
+import Portfolio from "./components/pages/Portfolio";
 
 function App() {
   // Use state to track the currently displayed page
@@ -17,6 +18,7 @@ function App() {
     <div>
       <Navigation changePage={changePage} />
       {currentPage === "aboutMe" && <AboutMe />}
+      {currentPage === "portfolio" && <Portfolio />}
     </div>
   );
 }
