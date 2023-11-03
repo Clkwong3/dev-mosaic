@@ -1,5 +1,7 @@
+// Define a ContactForm component using an arrow function
 const ContactForm = () => {
   return (
+    // Start the form within a div with the class "contact-form"
     <div className="contact-form">
       <form>
         <div className="form-group">
@@ -25,4 +27,5 @@ const ContactForm = () => {
   );
 };
 
+// Export the ContactForm
 export default ContactForm;

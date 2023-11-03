@@ -1,5 +1,7 @@
+// Define an AboutMe component using an arrow function
 const AboutMe = () => {
   return (
+    // Create a container div with the class "about-me"
     <div className="about-me">
       <h1>About Me</h1>
       <div className="about-me-content">
@@ -29,4 +31,5 @@ const AboutMe = () => {
   );
 };
 
+// Export the AboutMe component for use in other parts of the application
 export default AboutMe;

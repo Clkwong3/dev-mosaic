@@ -5,11 +5,13 @@ import AboutMe from "./components/pages/AboutMe";
 import Portfolio from "./components/pages/Portfolio";
 import ContactMe from "./components/pages/ContactMe";
 
+import "./App.css";
+
 function App() {
   // Use state to track the currently displayed page
   const [currentPage, setCurrentPage] = useState("aboutMe");
 
-  // Function to change the currently displayed page
+  // Change the currently displayed page
   const changePage = (page) => {
     setCurrentPage(page);
   };
