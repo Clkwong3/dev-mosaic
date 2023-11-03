@@ -22,7 +22,7 @@ const Navigation = ({ changePage }) => {
             <a href="#">Portfolio</a>
           </div>
           <span style={separatorStyle}>|</span>
-          <div style={linkStyle} onClick={() => changePage('contact')}>
+          <div style={linkStyle} onClick={() => changePage('contactMe')}>
             <a href="#">Contact Me</a>
           </div>
         </section>
