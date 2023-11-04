@@ -6,6 +6,7 @@ import Portfolio from "./components/pages/Portfolio";
 import ContactMe from "./components/pages/ContactMe";
 
 import "./App.css";
+import { Outlet } from "react-router-dom";
 
 function App() {
   // Use state to track the currently displayed page
@@ -19,10 +20,8 @@ function App() {
   // Render the Navigation component and the appropriate page based on the current selection
   return (
     <div>
-      <Navigation changePage={changePage} />
-      {currentPage === "aboutMe" && <AboutMe />}
-      {currentPage === "portfolio" && <Portfolio />}
-      {currentPage === "contactMe" && <ContactMe />}
+      <Navigation changePage={changePage} currentPage={currentPage} />
+      <Outlet />
     </div>
   );
 }
