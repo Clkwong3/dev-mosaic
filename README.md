@@ -1,8 +1,66 @@
-# React + Vite
+# Dev-Mosaic
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Provide a concise and high-level introduction to the key aspects and objectives of your project. It should briefly cover what the project is, its main features, and its purpose.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [Description](#description)
+- [Tools](#tools)
+- [Technology Stack](#technology-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Links](#links)
+- [Credits](#credits)
+- [Contributing](#contributing)
+- [Report Issue](#report-issue)
+- [License](#license)
+
+## Description
+
+Provide a brief description of your project. What is it about? What problem does it solve?
+
+## Tools
+
+Provide a list of tools needed to interact with your project effectively.
+
+## Technology Stack
+
+List the technologies, frameworks, and tools used in your project.
+
+## Installation
+
+Explain how to install and set up your project. Include any prerequisites and step-by-step instructions.
+
+## Usage
+
+Provide usage instructions and examples. How can someone use your project? Include code samples if necessary.
+
+## Testing
+
+Explain how to run tests or provide information on the testing process for your project.
+
+## Links
+
+- [Live Demo](https://celadon-torte-44cbfd.netlify.app): 
+
+- [GitHub Repository](https://github.com/Clkwong3/dev-mosaic): Link to the GitHub repository for this project.
+
+## Credits
+
+Acknowledge any contributors, libraries, or resources you used in your project.
+
+## Contributing
+
+If you'd like to contribute to the project with code or other contributions, we welcome your participation. Provide instructions for how others can do so.
+
+## Report Issue
+
+If you'd like to report an issue or contribute to the project, provide instructions for how others can do so.
+
+## License
+
+Specify the project's license, if applicable.
+
