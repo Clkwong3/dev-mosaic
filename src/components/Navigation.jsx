@@ -5,6 +5,13 @@ const Navigation = ({ changePage, currentPage }) => {
     <header>
       <nav className="navbar-menu ">
         <div
+          className={currentPage === "home" ? "link active" : "link"}
+          onClick={() => changePage("home")}
+        >
+          <a href="/home">Home</a>
+        </div>
+        |        
+        <div
           className={currentPage === "aboutMe" ? "link active" : "link"}
           onClick={() => changePage("aboutMe")}
         >
