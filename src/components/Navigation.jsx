@@ -1,38 +1,26 @@
-const Navigation = ({ changePage, currentPage }) => {
+import { useLocation } from "react-router-dom";
+
+const Navigation = () => {
+  const { pathname } = useLocation();
   // Create a navigation bar with links that trigger the changePage function
-  console.log(currentPage);
   return (
-    <header>
-      <nav className="navbar-menu ">
-        <div
-          className={currentPage === "home" ? "link active" : "link"}
-          onClick={() => changePage("home")}
-        >
-          <a href="/home">Home</a>
-        </div>
-        |        
-        <div
-          className={currentPage === "aboutMe" ? "link active" : "link"}
-          onClick={() => changePage("aboutMe")}
-        >
-          <a href="/about">About Me</a>
-        </div>
-        |
-        <div
-          className={currentPage === "portfolio" ? "link active" : "link"}
-          onClick={() => changePage("portfolio")}
-        >
-          <a href="/portfolio">Portfolio</a>
-        </div>
-        |
-        <div
-          className={currentPage === "contactMe" ? "link active" : "link"}
-          onClick={() => changePage("contactMe")}
-        >
-          <a href="/contact">Contact Me</a>
-        </div>
-      </nav>
-    </header>
+    <nav className="navbar-menu ">
+      <div className={pathname === "home" ? "link active" : "link"}>
+        <a href="/">Home</a>
+      </div>
+      |
+      <div className={pathname === "/about" ? "link active" : "link"}>
+        <a href="/about">About Me</a>
+      </div>
+      |
+      <div className={pathname === "portfolio" ? "link active" : "link"}>
+        <a href="/portfolio">Portfolio</a>
+      </div>
+      |
+      <div className={pathname === "contactMe" ? "link active" : "link"}>
+        <a href="/contact">Contact Me</a>
+      </div>
+    </nav>
   );
 };
 
