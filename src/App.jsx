@@ -1,13 +1,11 @@
 import { Outlet } from "react-router-dom";
-import Home from "./components/pages/Home";
-import Navigation from "./components/Navigation";
+import Header from "./components/Header";
 
 function App() {
   // Render the components and the appropriate page based on the current selection
   return (
     <div>
-      <Navigation />
-      <Home />
+      <Header />
       <Outlet />
     </div>
   );
