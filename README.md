@@ -44,9 +44,11 @@ Explain how to run tests or provide information on the testing process for your 
 
 ## Links
 
-- [Live Demo](https://celadon-torte-44cbfd.netlify.app): 
+- [Live Demo](https://celadon-torte-44cbfd.netlify.app): Interact with and experience the application in action by clicking on this link.
 
-- [GitHub Repository](https://github.com/Clkwong3/dev-mosaic): Link to the GitHub repository for this project.
+- [GitHub Repository](https://github.com/Clkwong3/dev-mosaic): If you want to explore the code, contribute, or understand how the project works behind the scenes, this is the place to go.
+
+- [Netlify Redirect](https://stackoverflow.com/questions/72234858/how-to-redirect-routes-in-netlify-using-vite-and-react): Stack Overflow post discussing how to implement route redirection in a Netlify-deployed project that uses Vite and React.
 
 ## Credits
 
@@ -63,4 +65,3 @@ If you'd like to report an issue or contribute to the project, provide instructi
 ## License
 
 Specify the project's license, if applicable.
-
